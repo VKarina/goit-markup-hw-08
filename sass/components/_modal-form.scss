@@ -120,7 +120,7 @@
 
   .form-checkbox-input:checked + & {
     background-color: $accentColor;
-    background-image: url(../images/icon-check.svg);
+    background-image: url("../images/icon-check.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     border-color: $accentColor;
