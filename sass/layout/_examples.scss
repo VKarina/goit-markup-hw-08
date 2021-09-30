@@ -1,0 +1,40 @@
+.examples {
+  padding-top: 47px;
+  padding-bottom: 94px;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 1199px) {
+  .examples {
+    display: none;
+  }
+}
+.examples__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.examples__item {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.examples__img {
+  position: relative;
+}
+.examples__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
